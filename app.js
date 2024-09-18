@@ -25,6 +25,7 @@ function CreateNotification(){
   };
 
   navigator.serviceWorker.ready.then(function(serviceWorker) {
+    alert("Bingo!");
     return serviceWorker.showNotification(title, options);
   });
     
