@@ -1,0 +1,46 @@
+{
+    "short_name": "Push Notifications",
+    "name": "Push Notifications PWA",
+    "icons": [
+      {
+        "src": "logo.svg",
+        "type": "image/svg+xml",
+        "sizes": "512x512"
+      },
+      {
+        "src": "logo.svg",
+        "type": "image/svg+xml",
+        "sizes": "192x192"
+      }
+    ],
+    "id": "http://localhost/notif/",
+    "start_url": "http://localhost/notif/",
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#3367D6",
+    "shortcuts": [
+      {
+        "name": "Push Notifications PWA",
+        "short_name": "Push Notifications",
+        "description": "View Push Notifications",
+        "url": "http://localhost/notif/",
+        "icons": [{ "src": "logo.svg", "sizes": "192x192" }]
+      }
+    ],
+    "description": "Push Notifications PWA",
+    "screenshots": [
+      {
+        "src": "logo.svg",
+        "type": "image/svg+xml",
+        "sizes": "540x720",
+        "form_factor": "narrow"
+      },
+      {
+        "src": "logo.svg",
+        "type": "image/svg+xml",
+        "sizes": "720x540",
+        "form_factor": "wide"
+      }
+    ]
+  }
