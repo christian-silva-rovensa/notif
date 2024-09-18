@@ -16,7 +16,6 @@ function RequestPermission(){
 
 }
 
-
-if (Notification.permission === "granted") {
+function CreateNotification(){
     new Notification("Hi there!");
 }
