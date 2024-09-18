@@ -17,5 +17,16 @@ function RequestPermission(){
 }
 
 function CreateNotification(){
-    new Notification("Hi there!");
+
+  const title = 'Simple Title';
+
+  const options = {
+    body: 'Simple piece of body text.\nSecond line of body text :)',
+  };
+
+  navigator.serviceWorker.ready.then(function(serviceWorker) {
+    return serviceWorker.showNotification(title, options);
+  });
+    
 }
+
